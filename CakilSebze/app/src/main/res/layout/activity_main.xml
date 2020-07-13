@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sebze.cakil.com.cakilsebze.MainActivity"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@android:color/holo_blue_dark">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/editText"
+        android:hint="DOMATES"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/editText2"
+        android:hint="SALATALIK"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editText4"
+        android:hint="ACI BİBER"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="21dp"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:hint="DOLMA BİBER"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="17dp"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_alignParentEnd="true"
+        android:hint="PATLICAN"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/editText5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/editText6"
+        android:hint="FASULYE"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText7"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+        android:hint="KABAK"
+        android:inputType="number|numberDecimal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ok"
+        android:id="@+id/imageView"
+        android:layout_toStartOf="@+id/editText"
+        android:layout_above="@+id/editText2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sa"
+        android:layout_alignTop="@+id/editText2"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cg"
+        android:id="@+id/imageView7"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_above="@+id/editText5"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/be"
+        android:id="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/editText4"
+        android:layout_toStartOf="@+id/editText3"
+        android:layout_alignTop="@+id/editText3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pa"
+        android:id="@+id/imageView8"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_toStartOf="@+id/editText5"
+        android:layout_above="@+id/editText6" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bea"
+        android:id="@+id/imageView10"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/editText7"
+        android:layout_toStartOf="@+id/editText6"
+        android:layout_alignTop="@+id/editText6" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kab"
+        android:layout_alignTop="@+id/editText7"
+        android:id="@+id/imageView11"
+        android:layout_alignBottom="@+id/editText7"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText7" />
+
+    <Button
+        android:text="HESAPLA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="KG FİYAT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_toEndOf="@+id/button"
+        android:layout_alignTop="@+id/button" />
+
+    <Button
+        android:text="SIFIRLA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_alignTop="@+id/button3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button2"
+        android:hint="PARA"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_alignTop="@+id/button" />
+
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sebze.cakil.com.cakilsebze.Main2Activity"
+    android:background="@android:color/holo_blue_dark">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/editText15"
+        android:hint="DOMATES" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/editText15"
+        android:layout_alignStart="@+id/editText15"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText16"
+        android:hint="SALATALIK" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/editText16"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/editText17"
+        android:hint="DOLMA BİBER" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/editText17"
+        android:layout_alignStart="@+id/editText17"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editText18"
+        android:hint="ACI BİBER" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/editText18"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/editText19"
+        android:hint="PATLICAN" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/editText19"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/editText20"
+        android:hint="FASULYE" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/editText20"
+        android:layout_alignStart="@+id/editText20"
+        android:layout_marginTop="17dp"
+        android:id="@+id/editText21"
+        android:hint="KABAK" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ok"
+        android:layout_above="@+id/editText16"
+        android:layout_toStartOf="@+id/editText15"
+        android:id="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sa"
+        android:layout_alignTop="@+id/editText16"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView4"
+        android:layout_above="@+id/editText17"
+        android:layout_toStartOf="@+id/editText16" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/be"
+        android:layout_alignTop="@+id/editText17"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView5"
+        android:layout_above="@+id/editText18"
+        android:layout_toStartOf="@+id/editText17" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cg"
+        android:layout_above="@+id/editText19"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView9"
+        android:layout_alignTop="@+id/editText18"
+        android:layout_toStartOf="@+id/editText18" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pa"
+        android:layout_above="@+id/editText20"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView12"
+        android:layout_alignTop="@+id/editText19"
+        android:layout_toStartOf="@+id/editText19" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bea"
+        android:id="@+id/imageView13"
+        android:layout_alignTop="@+id/editText20"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/editText20"
+        android:layout_above="@+id/editText21" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kab"
+        android:layout_alignBottom="@+id/editText21"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView14"
+        android:layout_alignTop="@+id/editText21"
+        android:layout_toStartOf="@+id/editText21" />
+
+    <Button
+        android:text="KAYDET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button4" />
+
+    <Button
+        android:text="HESAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView14" />
+
+</RelativeLayout>
